@@ -21,6 +21,11 @@ public class ExceptionTest {
         int b = 10/0;
         return "index";
     }
+
+    public String index3(Model model){
+        System.out.println("测试");
+        return "index";
+    }
  /*   @ExceptionHandler(value = {java.lang.NullPointerException.class})
     public ModelAndView exception1(Exception e){
         ModelAndView modelAndView = new ModelAndView();
